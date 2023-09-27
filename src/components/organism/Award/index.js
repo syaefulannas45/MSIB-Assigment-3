@@ -17,7 +17,7 @@ const Awards = () => {
           <TextCS className="font-medium">{award.title}</TextCS>
         </div>
       ))}
-      <Line className="mt-[200px]"/>
+      <Line className="mt-[300px]"/>
     </div>
   );
 };
