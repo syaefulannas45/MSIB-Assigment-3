@@ -9,7 +9,7 @@ const Awards = () => {
     { id: 2, title: "Fullstack Javascript MERN" },
   ];
   return (
-    <div id="awards" className="mb-[300px]">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <TextCS className="font-bold text-6xl my-10">Awards</TextCS>
       {data.map((award) => (
         <div className="flex items-center space-x-2" key={award.id}>
@@ -17,7 +17,7 @@ const Awards = () => {
           <TextCS className="font-medium">{award.title}</TextCS>
         </div>
       ))}
-      <Line className="mt-[300px]"/>
+      <Line className="mt-[300px]" />
     </div>
   );
 };

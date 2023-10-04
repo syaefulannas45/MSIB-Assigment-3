@@ -3,7 +3,7 @@ import { Line, TextCS } from "../../atoms";
 
 const Interests = () => {
   return (
-    <div id="interests">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <TextCS className="font-bold text-6xl my-10">Interests</TextCS>
       <TextCS className="w-[70%]">
         I have a profound interest in the world of web programming, specifically in the development of web and mobile applications. The ability to create dynamic and functional online experiences, both through web browsers and mobile

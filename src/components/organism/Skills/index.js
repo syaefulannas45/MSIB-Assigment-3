@@ -18,7 +18,7 @@ const Skills = () => {
     { id: 5, title: "Tailwind CSS" },
   ];
   return (
-    <div id="skills">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <TextCS className="font-bold text-6xl my-10">Skills</TextCS>
       <TextCS className="font-semibold">Programing Language, Database & Frameworks</TextCS>
       <div className="flex space-x-5">

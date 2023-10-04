@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const LinkCS = ({ desc, to, className, onClick }) => {
   return (
-    <a href={to} className={className} onClick={onClick}>
+    <Link to={to} className={className} onClick={onClick}>
       {desc}
-    </a>
+    </Link>
   );
 };
 

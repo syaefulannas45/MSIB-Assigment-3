@@ -27,7 +27,7 @@ const Experience = () => {
     },
   ];
   return (
-    <div id="experience">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <TextCS className="font-bold text-6xl my-10">Experience</TextCS>
       {data.map((item) => (
         <div key={item.id}>

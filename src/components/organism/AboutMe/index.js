@@ -4,7 +4,7 @@ import { Sosmed } from "../../molecules";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="pt-[200px]">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <div className="flex space-x-1 font-bold text-6xl ">
         <TextCS className="text-black">Syaeful</TextCS>
         <TextCS className="text-orange">Annas</TextCS>

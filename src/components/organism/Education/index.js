@@ -20,7 +20,7 @@ const Education = () => {
     },
   ];
   return (
-    <div id="education">
+    <div className="w-full pl-[300px] pt-[200px] animate-slide-in-left">
       <TextCS className="font-bold text-6xl my-10">Education</TextCS>
       {data.map((item) => (
         <div key={item.id}>
